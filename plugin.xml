@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-plugin-yandex-ads-mediation-mytarget"
+    version="0.1.0">
+
+    <name>cordova-plugin-yandex-ads-mediation-mytarget</name>
+    <description>Cordova Yandex Ads Mediation Plugin for MyTarget</description>
+    <keywords>yandex,mediation,mytarget</keywords>
+    <license>MIT</license>
+
+    <platform name="android">
+        <framework src="com.yandex.ads.mediation:mobileads-mytarget:5.15.0.2" />
+        <framework src="com.my.target:mytarget-sdk:5.15.0" />
+    </platform>
+
+    <platform name="ios">
+        <podspec>
+          <config>
+            <source url="https://cdn.cocoapods.org/"/>
+          </config>
+          <pods use-frameworks="true">
+            <pod name="MyTargetYandexMobileAdsAdapters" spec="~> 5.15"/>
+          </pods>
+        </podspec>
+    </platform>
+</plugin>

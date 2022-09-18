@@ -1,0 +1,33 @@
+{
+    "name": "cordova-plugin-yandex-ads-mediation-mytarget",
+    "version": "0.1.0",
+    "description": "Cordova Yandex Ads Mediation Plugin for MyTarget",
+    "cordova": {
+        "id": "cordova-plugin-yandex-ads-mediation-mytarget",
+        "platforms": [
+            "android",
+            "ios"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Junker/cordova-plugin-yandex-ads-mediation-mytarget.git"
+    },
+    "keywords": [
+        "ecosystem:cordova",
+        "cordova-android",
+        "cordova-ios",
+        "cordova",
+        "plugin",
+        "ad",
+        "yandex",
+        "mytarget",
+        "mediation"
+    ],
+    "author": "Junker",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Junker/cordova-plugin-yandex-ads-mediation-mytarget/issues"
+    },
+    "homepage": "https://github.com/Junker/cordova-plugin-yandex-ads-mediation-mytarget"
+}
